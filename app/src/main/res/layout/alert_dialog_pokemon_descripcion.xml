@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    android:elevation="6dp"
+    android:gravity="center"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/btn_custom"
+        android:orientation="vertical"
+        android:padding="6dp"
+        tools:ignore="UselessParent">
+
+
+
+            <TextView
+                android:textColor="#000000"
+                android:textSize="20dp"
+                android:gravity="center"
+                android:id="@+id/tvNombrePokemon"
+                android:text="Nombre pokemon"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+            <ImageView
+                android:id="@+id/imgPokemon"
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:layout_gravity="center"
+                android:padding="6dp"
+                android:src="@drawable/ic_launcher_background" />
+
+        <TextView
+            android:layout_margin="16dp"
+            android:textColor="#000000"
+            android:textSize="20dp"
+            android:gravity="center"
+            android:id="@+id/tvTypes"
+            android:text="tipos: "
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+        <Button
+            android:layout_margin="16dp"
+            android:text="cerrar"
+            android:id="@+id/btnCerrar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"/>
+
+    </LinearLayout>
+
+</LinearLayout>
